@@ -1,0 +1,21 @@
+
+<div class="container">
+            <h3>Travel Package</h3>
+
+        <div *ngFor="let esevee of products; index as productId">
+                <h3>
+                    <a [routerLink]="['/products' , productId]">
+                    {{ esevee.place }}
+                    </a>
+                </h3>
+        
+            <p *ngIf="esevee.description">
+                 Description: {{ esevee.description }}
+            </p>
+            <p *ngIf="esevee.price">
+                 Price: {{ esevee.price }}
+            </p>
+        </div>
+
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" routerLink="/cart">Checkout</button>
+</div>

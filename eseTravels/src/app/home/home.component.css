@@ -1,0 +1,29 @@
+
+/*global*/
+a {
+    text-decoration: none;
+    color: rgb(21, 136, 21);
+}
+
+a:hover {
+    border-bottom: 3px solid red;
+}
+#heroImg {
+    width: 100%;
+    height: 230px;
+}
+
+/*Form Zone*/
+
+form {
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 30px;
+    width: 100%;
+}
+
+input {
+    outline: none;
+    padding: 5px 10px;
+    width: 100%;
+}
+

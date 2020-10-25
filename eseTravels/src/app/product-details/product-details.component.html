@@ -1,0 +1,8 @@
+<h3>Travel Details</h3>
+
+<div *ngIf="product">
+    <h3>{{ product.place }}</h3>
+    <h4>{{ product.price | currency}}</h4>
+    <p>{{ product.description + "loremipsum miporemipsuml miploreo remipsum"}}</p>
+<button (click)="addToCart(product)">Buy Trip</button>
+</div>

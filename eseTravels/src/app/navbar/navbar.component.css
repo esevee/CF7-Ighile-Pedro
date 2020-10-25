@@ -1,0 +1,16 @@
+.heroBanner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../../assets/img/bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: fill;
+    height: 30rem;
+    color: #fff;
+}
+
+/*hr*/
+.hrRule {
+    border-top: 1.5px solid #fff;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(248, 245, 245, 0.5), 0 6px 20px 0 rgba(248, 245, 245, 0.5);
+}
