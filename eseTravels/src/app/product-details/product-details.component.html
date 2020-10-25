@@ -1,8 +1,13 @@
-<h3>Travel Details</h3>
+<div class="container my-5">
+    <h2 class="text-success">Travel Details</h2>
 
-<div *ngIf="product">
-    <h3>{{ product.place }}</h3>
-    <h4>{{ product.price | currency}}</h4>
-    <p>{{ product.description + "loremipsum miporemipsuml miploreo remipsum"}}</p>
-<button (click)="addToCart(product)">Buy Trip</button>
+    <div *ngIf="product">
+        <h5>{{ product.place }}</h5>
+        <p>Price: {{ product.price | currency}}</p>
+        <p>Duration: {{ product.duration}}</p>
+        <p>Date: {{ product.date}}</p>
+        <p>Details: {{ product.description + "loremipsum miporemipsuml miploreo remipsum"}}</p>
+    </div>
+    <button class="btn btn-success" (click)="addToCart(product)">Buy Trip</button>
+
 </div>
