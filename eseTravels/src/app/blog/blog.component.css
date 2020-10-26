@@ -14,3 +14,8 @@
     padding: 20px 30px;
     
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: black;
+}
